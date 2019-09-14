@@ -51,7 +51,17 @@ public class ScreenManager : MonoBehaviour
         hairBrush.SetActive(true);
         toothBrush.SetActive(true);
         hair.SetActive(true);
-        //napis1.SetActive(true);
-        //napis2.SetActive(true);
+        Invoke("ShowStory1",1.5f);
+    }
+
+    public void ShowStory1()
+    {
+        napis1.SetActive(true);
+        Invoke("ShowStory2",5f);
+    }
+    
+    public void ShowStory2()
+    {
+        napis2.SetActive(true);
     }
 }
