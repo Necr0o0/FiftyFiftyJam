@@ -16,11 +16,12 @@ public class TimeController : MonoBehaviour
         if (this.GetComponent<RectTransform>().sizeDelta.y < 0.0f)
         {
             Debug.Log("Game Over");
-            endSplashScreen.enabled = true;
-            endSplashScreen.transform.localScale += new Vector3(0.5f,0.5f,0.5f);
+           // endSplashScreen.enabled = true;
+          //  endSplashScreen.transform.localScale += new Vector3(0.5f,0.5f,0.5f);
             if (endSplashScreen.transform.localScale.x > 50)
             {
-                SceneManager.LoadScene(2);
+                Debug.Log("NO END NOW");
+               // SceneManager.LoadScene(2);
             } 
         }
     }
