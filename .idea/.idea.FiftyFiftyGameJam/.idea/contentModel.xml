@@ -10,6 +10,7 @@
         <e p="Scripts" t="Include">
           <e p="PlayerHairBrushController.cs" t="Include" />
           <e p="ScoreRightController.cs" t="Include" />
+          <e p="ScreenManager.cs" t="Include" />
           <e p="StartGameController.cs" t="Include" />
           <e p="TimeController.cs" t="Include" />
           <e p="ToothbrushMovement.cs" t="Include" />

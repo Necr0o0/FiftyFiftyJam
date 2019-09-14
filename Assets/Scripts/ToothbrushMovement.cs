@@ -45,9 +45,9 @@ public class ToothbrushMovement : MonoBehaviour
             transform.position = tmp;
         }
 
-        if (transform.position.y > 1.8)
+        if (transform.position.y > 2f)
         {
-            Vector3 tmp = new Vector3(transform.position.x, 1.8f, transform.position.z);
+            Vector3 tmp = new Vector3(transform.position.x, 2f, transform.position.z);
             transform.position = tmp;
         }
         //Debug.Log(v3);

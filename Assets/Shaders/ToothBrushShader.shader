@@ -35,15 +35,20 @@
             
             float distanceFromCenter = length (vectorFromCenterTOUV);
             
+            float2 closestPoints = IN.uv_MainTex - IN.uv_MainTex *0.1f;
+            
+            float distanceFromClosestPoints = length(closestPoints);
+            
         
             float2 normalizedFromCenter = normalize(vectorFromCenterTOUV);
             
-            float2 changePos = normalizedFromCenter * vectorFromCenterTOUV * _Strength;
+            float2 changePos = float2(sin(_Time.y * 0.5f), 1.4* sin(_Time.y*2 + distanceFromClosestPoints ) ) * 99;
 
-
+            float2 changePos2 = closestPoints*distanceFromClosestPoints;
             
+            changePos = changePos *0.001f;
       
-             float3 textureColor = tex2D(_MainTex, IN.uv_MainTex + _Time.y*0.1 ).rgb;
+             float3 textureColor = tex2D(_MainTex, IN.uv_MainTex + changePos ).rgb;
             
                 o.Emission = textureColor;
    
