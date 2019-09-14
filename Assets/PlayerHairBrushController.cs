@@ -27,9 +27,21 @@ public class PlayerHairBrushController : MonoBehaviour
       if (Input.GetKey(KeyCode.A) && keyboardsInputs[1] != null) { transform.position = Vector3.Lerp(transform.position, keyboardsInputs[1].transform.position, lerpSpeed); }
       if (Input.GetKey(KeyCode.Z)&& keyboardsInputs[2] != null) { transform.position = Vector3.Lerp(transform.position, keyboardsInputs[2].transform.position, lerpSpeed); }
       
-      if (Input.GetKey(KeyCode.E)&& keyboardsInputs[3] != null) { transform.position = Vector3.Lerp(transform.position, keyboardsInputs[3].transform.position, lerpSpeed); }
-      if (Input.GetKey(KeyCode.D)&& keyboardsInputs[4] != null) { transform.position = Vector3.Lerp(transform.position, keyboardsInputs[4].transform.position, lerpSpeed); }
-      if (Input.GetKey(KeyCode.C)&& keyboardsInputs[5] != null) { transform.position = Vector3.Lerp(transform.position, keyboardsInputs[5].transform.position, lerpSpeed); }
+      if (Input.GetKey(KeyCode.W)&& keyboardsInputs[3] != null) { transform.position = Vector3.Lerp(transform.position, keyboardsInputs[3].transform.position, lerpSpeed); }
+      if (Input.GetKey(KeyCode.S)&& keyboardsInputs[4] != null) { transform.position = Vector3.Lerp(transform.position, keyboardsInputs[4].transform.position, lerpSpeed); }
+      if (Input.GetKey(KeyCode.X)&& keyboardsInputs[5] != null) { transform.position = Vector3.Lerp(transform.position, keyboardsInputs[5].transform.position, lerpSpeed); }
+      
+      if (Input.GetKey(KeyCode.E)&& keyboardsInputs[6] != null) { transform.position = Vector3.Lerp(transform.position, keyboardsInputs[6].transform.position, lerpSpeed); }
+      if (Input.GetKey(KeyCode.D)&& keyboardsInputs[7] != null) { transform.position = Vector3.Lerp(transform.position, keyboardsInputs[7].transform.position, lerpSpeed); }
+      if (Input.GetKey(KeyCode.C)&& keyboardsInputs[8] != null) { transform.position = Vector3.Lerp(transform.position, keyboardsInputs[8].transform.position, lerpSpeed); }
+      
+      if (Input.GetKey(KeyCode.R)&& keyboardsInputs[9] != null) { transform.position = Vector3.Lerp(transform.position, keyboardsInputs[9].transform.position, lerpSpeed); }
+      if (Input.GetKey(KeyCode.F)&& keyboardsInputs[10] != null) { transform.position = Vector3.Lerp(transform.position, keyboardsInputs[10].transform.position, lerpSpeed); }
+      if (Input.GetKey(KeyCode.V)&& keyboardsInputs[11] != null) { transform.position = Vector3.Lerp(transform.position, keyboardsInputs[11].transform.position, lerpSpeed); }
+      
+      if (Input.GetKey(KeyCode.T)&& keyboardsInputs[12] != null) { transform.position = Vector3.Lerp(transform.position, keyboardsInputs[12].transform.position, lerpSpeed); }
+      if (Input.GetKey(KeyCode.G)&& keyboardsInputs[13] != null) { transform.position = Vector3.Lerp(transform.position, keyboardsInputs[13].transform.position, lerpSpeed); }
+      if (Input.GetKey(KeyCode.B)&& keyboardsInputs[14] != null) { transform.position = Vector3.Lerp(transform.position, keyboardsInputs[14].transform.position, lerpSpeed); }
       
       /*
       if (Input.GetButtonDown("a"))
