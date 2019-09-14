@@ -54,6 +54,8 @@ public class PlayerHairBrushController : MonoBehaviour
      
      
       Debug.Log("Wchodzi lewa");
+
+      this.GetComponent<ParticleSystem>().Play();
    
      
       var tangledpoint = other.GetComponent<ToothBrushPackController>();
@@ -61,13 +63,13 @@ public class PlayerHairBrushController : MonoBehaviour
       Debug.Log(tangledpoint.untangled);
       switch (tangledpoint.untangled)
       {
-      case (-3):
+      case (0):
          tangledpoint.parentSpriteRenderer.sprite = tangledpoint.level1;
          break;
-      case (-6):
+      case (-2):
          tangledpoint.parentSpriteRenderer.sprite = tangledpoint.level2;
          break;
-      case (-9):
+      case (-4):
          tangledpoint.parentSpriteRenderer.sprite = tangledpoint.level3;
          break;
          

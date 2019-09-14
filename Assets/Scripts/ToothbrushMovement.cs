@@ -59,9 +59,26 @@ public class ToothbrushMovement : MonoBehaviour
     {
         Debug.Log("dziala");
         int_score++;
+
+        var dirtcounter = other.GetComponent<ScoreRightController>();
         score.text = int_score.ToString();
         Debug.LogWarning("Right score "+ int_score);
         this.GetComponent<ParticleSystem>().Play();
+
+        dirtcounter.collisionCounter--;
+        switch (dirtcounter.collisionCounter)
+        {
+            case (0):
+                dirtcounter.parent.sprite = dirtcounter.tooth1;
+                break;
+            case (-2):
+                dirtcounter.parent.sprite = dirtcounter.tooth2;
+                break;
+            case (-4):
+                dirtcounter.parent.sprite = dirtcounter.tooth3;
+                break;
+         
+        }
         
     }
 }
