@@ -33,13 +33,26 @@
             
             float distanceFromCenter = length (vectorFromCenterTOUV);
             
-            float2 normalizedFormCentere = normalize(vectorFromCenterTOUV);
+        
             
-            float2 changePos = normalizedFormCentere * 0.5f * sin(distanceFromCenter+0.5f);
+            float2 changePos = vectorFromCenterTOUV * distanceFromCenter * 10;
+
             
+
+            
+            if( IN.uv_MainTex.x + changePos.x <= 1 && IN.uv_MainTex.y + changePos.y <= 1 && IN.uv_MainTex.x + changePos.x >= 0 && IN.uv_MainTex.y + changePos.y >= 0)
+            {
+               
+             
+            }
+            else
+            {
+                o.Emission = _Color;
+            }
             float3 textureColor = tex2D(_MainTex, IN.uv_MainTex + changePos ).rgb;
             
-            o.Emission = textureColor;
+                o.Emission = textureColor;
+           
         
             // Albedo comes from a texture tinted by color
            // fixed4 c = tex2D (_MainTex, IN.uv_MainTex) * _Color;
