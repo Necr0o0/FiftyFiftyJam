@@ -3700,6 +3700,21 @@ PrefabInstance:
       propertyPath: looping
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7303573859657407111, guid: 64730a34433344a4b98fb2187e2ccbe4,
+        type: 3}
+      propertyPath: simulationSpeed
+      value: 3.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303573859657407111, guid: 64730a34433344a4b98fb2187e2ccbe4,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 8.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303573859657407111, guid: 64730a34433344a4b98fb2187e2ccbe4,
+        type: 3}
+      propertyPath: EmissionModule.rateOverDistance.scalar
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6557322431618065651, guid: 64730a34433344a4b98fb2187e2ccbe4,
         type: 3}
       propertyPath: m_GravityScale
@@ -3719,6 +3734,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AngularDrag
       value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 5426308645012344103, guid: 64730a34433344a4b98fb2187e2ccbe4,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64730a34433344a4b98fb2187e2ccbe4, type: 3}
