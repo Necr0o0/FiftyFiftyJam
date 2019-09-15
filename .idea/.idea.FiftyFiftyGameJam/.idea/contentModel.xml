@@ -6,15 +6,16 @@
     <e p="D:\FiftyFiftyGameJam" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="RestartGame.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="PlayerHairBrushController.cs" t="Include" />
+          <e p="RestartGame.cs" t="Include" />
           <e p="ScoreRightController.cs" t="Include" />
           <e p="ScreenManager.cs" t="Include" />
           <e p="StartGameController.cs" t="Include" />
           <e p="TimeController.cs" t="Include" />
           <e p="ToothbrushMovement.cs" t="Include" />
           <e p="ToothBrushPackController.cs" t="Include" />
+          <e p="WinController.cs" t="Include" />
         </e>
         <e p="Shaders" t="Include">
           <e p="ToothBrushShader.shader" t="Include" />
@@ -47,7 +48,6 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
-        <e p="WinController.cs" t="Include" />
       </e>
       <e p="FiftyFiftyGameJam.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

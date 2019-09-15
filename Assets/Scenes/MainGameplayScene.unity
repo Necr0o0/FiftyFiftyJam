@@ -260,7 +260,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: dca98adbe66908e4ea7b610727d713ac, type: 3}
-  m_Color: {r: 0.5235849, g: 0.9551609, b: 1, a: 1}
+  m_Color: {r: 0.8585985, g: 0.6367924, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -393,17 +393,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 184712540}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.3080078, w: 0.9513839}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1183652318}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -35.878002}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 646, y: 0}
-  m_SizeDelta: {x: 492, y: 451.9}
+  m_AnchoredPosition: {x: 779, y: -17}
+  m_SizeDelta: {x: 639, y: 314.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &184712542
 MonoBehaviour:
@@ -427,7 +427,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: YAAAY
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3a2a264c1d4290c43823014ed46e6ab8, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -456,7 +456,7 @@ MonoBehaviour:
   m_fontSize: 131.87
   m_fontSizeBase: 131.87
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -505,7 +505,7 @@ MonoBehaviour:
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_subTextObjects:
   - {fileID: 0}
   - {fileID: 0}
@@ -1114,6 +1114,12 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.1291256
       objectReference: {fileID: 0}
+    - target: {fileID: 111981184009585171, guid: 57963e4538f940040990d6661a0350ea,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ec3c338c60e3ac34083d6e59108a440a,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57963e4538f940040990d6661a0350ea, type: 3}
 --- !u!4 &555511739 stripped
@@ -1383,6 +1389,12 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.1291256
       objectReference: {fileID: 0}
+    - target: {fileID: 111981184009585171, guid: 57963e4538f940040990d6661a0350ea,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ec3c338c60e3ac34083d6e59108a440a,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57963e4538f940040990d6661a0350ea, type: 3}
 --- !u!1001 &796814947
@@ -1467,6 +1479,12 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.1291256
       objectReference: {fileID: 0}
+    - target: {fileID: 111981184009585171, guid: 57963e4538f940040990d6661a0350ea,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ec3c338c60e3ac34083d6e59108a440a,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57963e4538f940040990d6661a0350ea, type: 3}
 --- !u!4 &823148852 stripped
@@ -1655,6 +1673,12 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.1291256
       objectReference: {fileID: 0}
+    - target: {fileID: 111981184009585171, guid: 57963e4538f940040990d6661a0350ea,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ec3c338c60e3ac34083d6e59108a440a,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57963e4538f940040990d6661a0350ea, type: 3}
 --- !u!1001 &994360753
@@ -1739,6 +1763,12 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.1291256
       objectReference: {fileID: 0}
+    - target: {fileID: 111981184009585171, guid: 57963e4538f940040990d6661a0350ea,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ec3c338c60e3ac34083d6e59108a440a,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57963e4538f940040990d6661a0350ea, type: 3}
 --- !u!212 &1031808009 stripped
@@ -1787,8 +1817,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -450, y: -194}
-  m_SizeDelta: {x: 492, y: 451.9}
+  m_AnchoredPosition: {x: -463, y: -405}
+  m_SizeDelta: {x: 492, y: 184.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1058306903
 MonoBehaviour:
@@ -1812,7 +1842,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: YAAAY
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3a2a264c1d4290c43823014ed46e6ab8, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1890,7 +1920,7 @@ MonoBehaviour:
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_subTextObjects:
   - {fileID: 0}
   - {fileID: 0}
@@ -3260,6 +3290,12 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.1291256
       objectReference: {fileID: 0}
+    - target: {fileID: 111981184009585171, guid: 57963e4538f940040990d6661a0350ea,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ec3c338c60e3ac34083d6e59108a440a,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57963e4538f940040990d6661a0350ea, type: 3}
 --- !u!1001 &5431547847176937072
