@@ -76,6 +76,7 @@ public class ToothbrushMovement : MonoBehaviour
                 break;
             case (-4):
                 dirtcounter.parent.sprite = dirtcounter.tooth3;
+                dirtcounter.GetComponent<ParticleSystem>().Play();
                 break;
          
         }

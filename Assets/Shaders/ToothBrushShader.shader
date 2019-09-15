@@ -48,7 +48,7 @@
             
             changePos = changePos *0.001f;
       
-             float3 textureColor = tex2D(_MainTex, IN.uv_MainTex + changePos ).rgb;
+             float3 textureColor = tex2D(_MainTex, IN.uv_MainTex + changePos ).rgb * _Color;
             
                 o.Emission = textureColor;
    

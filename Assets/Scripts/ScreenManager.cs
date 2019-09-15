@@ -22,6 +22,8 @@ public class ScreenManager : MonoBehaviour
     public GameObject napis4;
     public GameObject napis5;
     public GameObject napis6;
+    public GameObject tutorial1;
+    public GameObject tutorial2;
     
     private bool enableFade;
     void Start()
@@ -91,10 +93,34 @@ public class ScreenManager : MonoBehaviour
     {
         napis4.SetActive(false);
         napis5.SetActive(true);
-        napis6.SetActive(true);
-        Invoke("NextScene",3f);
+        Invoke("ShowStory6",7f);
     }
 
+    private void ShowStory6()
+    {
+        napis5.SetActive(false);
+        napis6.SetActive(true);
+        Invoke("ShowTutorial1",2f);
+    }
+
+    private void ShowTutorial1()
+    {
+        hairBrush.SetActive(false);
+        toothBrush.SetActive(false);
+        napis6.SetActive(false);
+        tutorial1.SetActive(true);
+        
+        Invoke("ShowTutorial2",2f);
+    }
+
+    private void ShowTutorial2()
+    {
+        tutorial1.SetActive(false);
+        tutorial2.SetActive(true);
+        
+        Invoke("NextScene",2f);
+    }
+    
     public void NextScene()
     {
         SceneManager.LoadScene(1);
