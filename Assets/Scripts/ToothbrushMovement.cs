@@ -65,6 +65,12 @@ public class ToothbrushMovement : MonoBehaviour
         Debug.LogWarning("Right score "+ int_score);
         this.GetComponent<ParticleSystem>().Play();
 
+        if (!dirtcounter.GetComponent<AudioSource>().isPlaying)
+        {
+            dirtcounter.GetComponent<AudioSource>().Play();
+        }
+       
+
         dirtcounter.collisionCounter--;
         switch (dirtcounter.collisionCounter)
         {

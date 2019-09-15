@@ -476,6 +476,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7721324915112745164, guid: 86f09c00d665d3a4eac0c2a57de8c145,
+        type: 3}
+      propertyPath: rotateOffset
+      value: 0.04
+      objectReference: {fileID: 0}
     - target: {fileID: 7721324915270101077, guid: 86f09c00d665d3a4eac0c2a57de8c145,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -1046,7 +1051,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0.0000000037252903}
+  m_BoundingSphereOverride: {x: 0, y: 2.885e-42, z: 0, w: 4.259357e+16}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -1365,8 +1370,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9caa53f2de0adbc4ba257782bc990e31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: 0.1
-  rotateOffset: 0.1
+  offset: 0.01
+  rotateOffset: 0.01
 --- !u!1 &802129174
 GameObject:
   m_ObjectHideFlags: 0
@@ -1650,6 +1655,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7721324915112745164, guid: 86f09c00d665d3a4eac0c2a57de8c145,
+        type: 3}
+      propertyPath: rotateOffset
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: 7721324915270101077, guid: 86f09c00d665d3a4eac0c2a57de8c145,
         type: 3}
@@ -2348,7 +2358,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1370422389
 Transform:
   m_ObjectHideFlags: 0
@@ -2376,8 +2386,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9caa53f2de0adbc4ba257782bc990e31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: 0.1
-  rotateOffset: 0.1
+  offset: 0.01
+  rotateOffset: 0.01
 --- !u!1 &1375505715
 GameObject:
   m_ObjectHideFlags: 0
@@ -2778,6 +2788,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7721324915112745164, guid: 86f09c00d665d3a4eac0c2a57de8c145,
+        type: 3}
+      propertyPath: rotateOffset
+      value: 0.04
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86f09c00d665d3a4eac0c2a57de8c145, type: 3}
 --- !u!224 &1455807464 stripped
@@ -2902,6 +2917,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7721324915112745164, guid: 86f09c00d665d3a4eac0c2a57de8c145,
+        type: 3}
+      propertyPath: rotateOffset
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: 7721324915270101077, guid: 86f09c00d665d3a4eac0c2a57de8c145,
         type: 3}
@@ -3190,6 +3210,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7721324915112745164, guid: 86f09c00d665d3a4eac0c2a57de8c145,
+        type: 3}
+      propertyPath: rotateOffset
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: 7721324915270101077, guid: 86f09c00d665d3a4eac0c2a57de8c145,
         type: 3}
@@ -3840,11 +3865,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 59e42d43f9eb2bc469ef128ae01b0093, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

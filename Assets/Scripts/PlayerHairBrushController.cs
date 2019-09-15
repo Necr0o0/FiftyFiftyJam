@@ -60,6 +60,12 @@ public class PlayerHairBrushController : MonoBehaviour
      
       var tangledpoint = other.GetComponent<ToothBrushPackController>();
       tangledpoint.untangled--;
+
+      if(!tangledpoint.parentSpriteRenderer.gameObject.GetComponent<AudioSource>().isPlaying)
+      {
+         tangledpoint.parentSpriteRenderer.gameObject.GetComponent<AudioSource>().Play();
+      }
+      
       Debug.Log(tangledpoint.untangled);
 
       if (tangledpoint.parentSpriteRenderer.sprite != tangledpoint.level3)
