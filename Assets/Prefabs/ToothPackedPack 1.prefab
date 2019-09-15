@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5431547847732135725}
   - component: {fileID: 5431547847732135724}
+  - component: {fileID: 6604485202094864634}
   m_Layer: 0
   m_Name: ToothPackedPack 1
   m_TagString: Untagged
@@ -83,6 +84,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6604485202094864634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5431547847732135723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9caa53f2de0adbc4ba257782bc990e31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: 0.001
+  rotateOffset: 0.1
 --- !u!1001 &5431547845915529152
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -95,6 +110,39 @@ PrefabInstance:
       propertyPath: m_Name
       value: ToothBrushPack (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7978206384959959353, guid: 37c29ae739254214f8482fb07d3ca247,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8435438238106844908, guid: 37c29ae739254214f8482fb07d3ca247,
+        type: 3}
+      propertyPath: keyboardInput
+      value: s
+      objectReference: {fileID: 0}
+    - target: {fileID: 8435438238106844908, guid: 37c29ae739254214f8482fb07d3ca247,
+        type: 3}
+      propertyPath: parentSpriteRenderer
+      value: 
+      objectReference: {fileID: 5431547847732135724}
+    - target: {fileID: 8435438238106844908, guid: 37c29ae739254214f8482fb07d3ca247,
+        type: 3}
+      propertyPath: level1
+      value: 
+      objectReference: {fileID: 21300000, guid: b4a295c6eb24ed54b8db3ad346798826,
+        type: 3}
+    - target: {fileID: 8435438238106844908, guid: 37c29ae739254214f8482fb07d3ca247,
+        type: 3}
+      propertyPath: level2
+      value: 
+      objectReference: {fileID: 21300000, guid: b82a140e69bd2ef408023572c382beb4,
+        type: 3}
+    - target: {fileID: 8435438238106844908, guid: 37c29ae739254214f8482fb07d3ca247,
+        type: 3}
+      propertyPath: level3
+      value: 
+      objectReference: {fileID: 21300000, guid: 750559a74176f7443afd6a4b2b7b137d,
+        type: 3}
     - target: {fileID: 7978206384959959358, guid: 37c29ae739254214f8482fb07d3ca247,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -150,43 +198,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8435438238106844908, guid: 37c29ae739254214f8482fb07d3ca247,
-        type: 3}
-      propertyPath: keyboardInput
-      value: s
-      objectReference: {fileID: 0}
-    - target: {fileID: 8435438238106844908, guid: 37c29ae739254214f8482fb07d3ca247,
-        type: 3}
-      propertyPath: parentSpriteRenderer
-      value: 
-      objectReference: {fileID: 5431547847732135724}
-    - target: {fileID: 8435438238106844908, guid: 37c29ae739254214f8482fb07d3ca247,
-        type: 3}
-      propertyPath: level1
-      value: 
-      objectReference: {fileID: 21300000, guid: b4a295c6eb24ed54b8db3ad346798826,
-        type: 3}
-    - target: {fileID: 8435438238106844908, guid: 37c29ae739254214f8482fb07d3ca247,
-        type: 3}
-      propertyPath: level2
-      value: 
-      objectReference: {fileID: 21300000, guid: b82a140e69bd2ef408023572c382beb4,
-        type: 3}
-    - target: {fileID: 8435438238106844908, guid: 37c29ae739254214f8482fb07d3ca247,
-        type: 3}
-      propertyPath: level3
-      value: 
-      objectReference: {fileID: 21300000, guid: 750559a74176f7443afd6a4b2b7b137d,
-        type: 3}
     - target: {fileID: 674696989042449359, guid: 37c29ae739254214f8482fb07d3ca247,
         type: 3}
       propertyPath: m_Offset.y
       value: -0.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 7978206384959959353, guid: 37c29ae739254214f8482fb07d3ca247,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37c29ae739254214f8482fb07d3ca247, type: 3}
@@ -208,6 +223,39 @@ PrefabInstance:
       propertyPath: m_Name
       value: ToothBrushPack
       objectReference: {fileID: 0}
+    - target: {fileID: 7978206384959959353, guid: 37c29ae739254214f8482fb07d3ca247,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8435438238106844908, guid: 37c29ae739254214f8482fb07d3ca247,
+        type: 3}
+      propertyPath: keyboardInput
+      value: w
+      objectReference: {fileID: 0}
+    - target: {fileID: 8435438238106844908, guid: 37c29ae739254214f8482fb07d3ca247,
+        type: 3}
+      propertyPath: level1
+      value: 
+      objectReference: {fileID: 21300000, guid: b4a295c6eb24ed54b8db3ad346798826,
+        type: 3}
+    - target: {fileID: 8435438238106844908, guid: 37c29ae739254214f8482fb07d3ca247,
+        type: 3}
+      propertyPath: level2
+      value: 
+      objectReference: {fileID: 21300000, guid: b82a140e69bd2ef408023572c382beb4,
+        type: 3}
+    - target: {fileID: 8435438238106844908, guid: 37c29ae739254214f8482fb07d3ca247,
+        type: 3}
+      propertyPath: level3
+      value: 
+      objectReference: {fileID: 21300000, guid: 750559a74176f7443afd6a4b2b7b137d,
+        type: 3}
+    - target: {fileID: 8435438238106844908, guid: 37c29ae739254214f8482fb07d3ca247,
+        type: 3}
+      propertyPath: parentSpriteRenderer
+      value: 
+      objectReference: {fileID: 5431547847732135724}
     - target: {fileID: 7978206384959959358, guid: 37c29ae739254214f8482fb07d3ca247,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -263,42 +311,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8435438238106844908, guid: 37c29ae739254214f8482fb07d3ca247,
-        type: 3}
-      propertyPath: keyboardInput
-      value: w
-      objectReference: {fileID: 0}
-    - target: {fileID: 8435438238106844908, guid: 37c29ae739254214f8482fb07d3ca247,
-        type: 3}
-      propertyPath: level1
-      value: 
-      objectReference: {fileID: 21300000, guid: b4a295c6eb24ed54b8db3ad346798826,
-        type: 3}
-    - target: {fileID: 8435438238106844908, guid: 37c29ae739254214f8482fb07d3ca247,
-        type: 3}
-      propertyPath: level2
-      value: 
-      objectReference: {fileID: 21300000, guid: b82a140e69bd2ef408023572c382beb4,
-        type: 3}
-    - target: {fileID: 8435438238106844908, guid: 37c29ae739254214f8482fb07d3ca247,
-        type: 3}
-      propertyPath: level3
-      value: 
-      objectReference: {fileID: 21300000, guid: 750559a74176f7443afd6a4b2b7b137d,
-        type: 3}
-    - target: {fileID: 8435438238106844908, guid: 37c29ae739254214f8482fb07d3ca247,
-        type: 3}
-      propertyPath: parentSpriteRenderer
-      value: 
-      objectReference: {fileID: 5431547847732135724}
     - target: {fileID: 674696989042449359, guid: 37c29ae739254214f8482fb07d3ca247,
         type: 3}
       propertyPath: m_Offset.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7978206384959959353, guid: 37c29ae739254214f8482fb07d3ca247,
-        type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -321,6 +336,39 @@ PrefabInstance:
       propertyPath: m_Name
       value: ToothBrushPack (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7978206384959959353, guid: 37c29ae739254214f8482fb07d3ca247,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8435438238106844908, guid: 37c29ae739254214f8482fb07d3ca247,
+        type: 3}
+      propertyPath: keyboardInput
+      value: x
+      objectReference: {fileID: 0}
+    - target: {fileID: 8435438238106844908, guid: 37c29ae739254214f8482fb07d3ca247,
+        type: 3}
+      propertyPath: parentSpriteRenderer
+      value: 
+      objectReference: {fileID: 5431547847732135724}
+    - target: {fileID: 8435438238106844908, guid: 37c29ae739254214f8482fb07d3ca247,
+        type: 3}
+      propertyPath: level1
+      value: 
+      objectReference: {fileID: 21300000, guid: b4a295c6eb24ed54b8db3ad346798826,
+        type: 3}
+    - target: {fileID: 8435438238106844908, guid: 37c29ae739254214f8482fb07d3ca247,
+        type: 3}
+      propertyPath: level2
+      value: 
+      objectReference: {fileID: 21300000, guid: b82a140e69bd2ef408023572c382beb4,
+        type: 3}
+    - target: {fileID: 8435438238106844908, guid: 37c29ae739254214f8482fb07d3ca247,
+        type: 3}
+      propertyPath: level3
+      value: 
+      objectReference: {fileID: 21300000, guid: 750559a74176f7443afd6a4b2b7b137d,
+        type: 3}
     - target: {fileID: 7978206384959959358, guid: 37c29ae739254214f8482fb07d3ca247,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -376,34 +424,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8435438238106844908, guid: 37c29ae739254214f8482fb07d3ca247,
-        type: 3}
-      propertyPath: keyboardInput
-      value: x
-      objectReference: {fileID: 0}
-    - target: {fileID: 8435438238106844908, guid: 37c29ae739254214f8482fb07d3ca247,
-        type: 3}
-      propertyPath: parentSpriteRenderer
-      value: 
-      objectReference: {fileID: 5431547847732135724}
-    - target: {fileID: 8435438238106844908, guid: 37c29ae739254214f8482fb07d3ca247,
-        type: 3}
-      propertyPath: level1
-      value: 
-      objectReference: {fileID: 21300000, guid: b4a295c6eb24ed54b8db3ad346798826,
-        type: 3}
-    - target: {fileID: 8435438238106844908, guid: 37c29ae739254214f8482fb07d3ca247,
-        type: 3}
-      propertyPath: level2
-      value: 
-      objectReference: {fileID: 21300000, guid: b82a140e69bd2ef408023572c382beb4,
-        type: 3}
-    - target: {fileID: 8435438238106844908, guid: 37c29ae739254214f8482fb07d3ca247,
-        type: 3}
-      propertyPath: level3
-      value: 
-      objectReference: {fileID: 21300000, guid: 750559a74176f7443afd6a4b2b7b137d,
-        type: 3}
     - target: {fileID: 674696989042449359, guid: 37c29ae739254214f8482fb07d3ca247,
         type: 3}
       propertyPath: m_Offset.y
@@ -423,11 +443,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 7978206384959959353, guid: 37c29ae739254214f8482fb07d3ca247,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37c29ae739254214f8482fb07d3ca247, type: 3}

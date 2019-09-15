@@ -130,6 +130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 39550805}
   - component: {fileID: 39550806}
+  - component: {fileID: 39550807}
   m_Layer: 0
   m_Name: napis4
   m_TagString: Untagged
@@ -200,6 +201,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &39550807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39550804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9caa53f2de0adbc4ba257782bc990e31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: 0.01
+  rotateOffset: 0.2
 --- !u!1 &186610338
 GameObject:
   m_ObjectHideFlags: 0
@@ -210,6 +225,7 @@ GameObject:
   m_Component:
   - component: {fileID: 186610339}
   - component: {fileID: 186610340}
+  - component: {fileID: 186610341}
   m_Layer: 0
   m_Name: napis2
   m_TagString: Untagged
@@ -280,6 +296,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &186610341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186610338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9caa53f2de0adbc4ba257782bc990e31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: 0.01
+  rotateOffset: 0.2
 --- !u!1 &288358382
 GameObject:
   m_ObjectHideFlags: 0
@@ -713,7 +743,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 6.68e-43, y: -6.655852e-31, z: 6.68e-43, w: -1.3321604e+34}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0.0000000037252903}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -1376,6 +1406,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1078239966}
   - component: {fileID: 1078239967}
+  - component: {fileID: 1078239968}
   m_Layer: 0
   m_Name: napis6
   m_TagString: Untagged
@@ -1446,6 +1477,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1078239968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078239965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9caa53f2de0adbc4ba257782bc990e31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: 0.01
+  rotateOffset: 0.2
 --- !u!1 &1094753496
 GameObject:
   m_ObjectHideFlags: 0
@@ -1998,6 +2043,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1778377160}
   - component: {fileID: 1778377161}
+  - component: {fileID: 1778377162}
   m_Layer: 0
   m_Name: napis1
   m_TagString: Untagged
@@ -2068,6 +2114,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1778377162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778377159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9caa53f2de0adbc4ba257782bc990e31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: 0.01
+  rotateOffset: 0.2
 --- !u!1 &1784870880
 GameObject:
   m_ObjectHideFlags: 0
@@ -2235,6 +2295,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1882255673}
   - component: {fileID: 1882255674}
+  - component: {fileID: 1882255675}
   m_Layer: 0
   m_Name: napis6 (1)
   m_TagString: Untagged
@@ -2305,6 +2366,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1882255675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882255672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9caa53f2de0adbc4ba257782bc990e31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: 0.01
+  rotateOffset: 0.2
 --- !u!1 &1912841747
 GameObject:
   m_ObjectHideFlags: 0
@@ -2470,6 +2545,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2048465404}
   - component: {fileID: 2048465405}
+  - component: {fileID: 2048465406}
   m_Layer: 0
   m_Name: napis3
   m_TagString: Untagged
@@ -2540,3 +2616,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2048465406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048465403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9caa53f2de0adbc4ba257782bc990e31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: 0.01
+  rotateOffset: 0.2

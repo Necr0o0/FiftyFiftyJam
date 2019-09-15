@@ -1614,6 +1614,7 @@ GameObject:
   m_Component:
   - component: {fileID: 974250065}
   - component: {fileID: 974250066}
+  - component: {fileID: 974250067}
   m_Layer: 0
   m_Name: HairBrush
   m_TagString: Untagged
@@ -1684,6 +1685,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &974250067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974250064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9caa53f2de0adbc4ba257782bc990e31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: 0.01
+  rotateOffset: 0.1
 --- !u!1001 &984594699
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2746,6 +2761,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1907979080}
   - component: {fileID: 1907979081}
+  - component: {fileID: 1907979082}
   m_Layer: 0
   m_Name: ToothBrush
   m_TagString: Untagged
@@ -2816,6 +2832,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 2
   m_SpriteSortPoint: 0
+--- !u!114 &1907979082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907979079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9caa53f2de0adbc4ba257782bc990e31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: 0.005
+  rotateOffset: 0.01
 --- !u!114 &1912351824 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4499106607017482753, guid: d87af3607d5620e45ac7eec1b604f36b,
