@@ -5,6 +5,7 @@ using UnityEngine;
 public class ShakeController : MonoBehaviour
 {
     private Vector2 initialposition;
+    private float initialRotate;
     public float offset = 0.01f;
     public float rotateOffset = 0.1f;
     
@@ -12,12 +13,13 @@ public class ShakeController : MonoBehaviour
     void Start()
     {
         initialposition = transform.position;
+        initialRotate = transform.rotation.z;
     }
     
     // Update is called once per frame
     void Update()
     {
         transform.position = new Vector3(Random.Range(initialposition.x-offset,initialposition.x+offset) ,Random.Range(initialposition.y-offset,initialposition.y+offset),transform.position.z);
-        transform.rotation = Quaternion.Euler(0, 0, Random.Range(-rotateOffset,rotateOffset));
+        transform.rotation = Quaternion.Euler(0, 0, Random.Range(initialRotate - rotateOffset, initialRotate+ rotateOffset));
     }
 }

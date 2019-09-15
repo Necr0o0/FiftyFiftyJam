@@ -70,6 +70,7 @@ public class RestartGame : MonoBehaviour
     private void Fin()
     {
         //subtitle4.SetActive(false);
+        Cursor.visible = true;
         fin.SetActive(true);
     }
 

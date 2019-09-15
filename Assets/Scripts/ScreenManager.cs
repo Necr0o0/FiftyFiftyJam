@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEditor.SceneManagement;
 using UnityEngine.SceneManagement;
 
 public class ScreenManager : MonoBehaviour
@@ -55,6 +54,7 @@ public class ScreenManager : MonoBehaviour
 
     private void StartCutscene()
     {
+        Cursor.visible = false;
         Debug.Log("Cutscenka wlaczenie");
         hairBrush.SetActive(true);
         toothBrush.SetActive(true);
@@ -100,7 +100,7 @@ public class ScreenManager : MonoBehaviour
     {
         napis5.SetActive(false);
         napis6.SetActive(true);
-        Invoke("ShowTutorial1",2f);
+        Invoke("ShowTutorial1",4f);
     }
 
     private void ShowTutorial1()
@@ -110,7 +110,7 @@ public class ScreenManager : MonoBehaviour
         napis6.SetActive(false);
         tutorial1.SetActive(true);
         
-        Invoke("ShowTutorial2",2f);
+        Invoke("ShowTutorial2",7f);
     }
 
     private void ShowTutorial2()
@@ -118,7 +118,7 @@ public class ScreenManager : MonoBehaviour
         tutorial1.SetActive(false);
         tutorial2.SetActive(true);
         
-        Invoke("NextScene",2f);
+        Invoke("NextScene",3f);
     }
     
     public void NextScene()
