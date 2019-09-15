@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 
 public class ScreenManager : MonoBehaviour
 {
@@ -16,6 +18,10 @@ public class ScreenManager : MonoBehaviour
     //napisy
     public GameObject napis1;
     public GameObject napis2;
+    public GameObject napis3;
+    public GameObject napis4;
+    public GameObject napis5;
+    public GameObject napis6;
     
     private bool enableFade;
     void Start()
@@ -45,23 +51,52 @@ public class ScreenManager : MonoBehaviour
 
     }
 
-    public void StartCutscene()
+    private void StartCutscene()
     {
         Debug.Log("Cutscenka wlaczenie");
         hairBrush.SetActive(true);
         toothBrush.SetActive(true);
         hair.SetActive(true);
-        Invoke("ShowStory1",1.5f);
+        Invoke("ShowStory1",1f);
     }
 
-    public void ShowStory1()
+    private void ShowStory1()
     {
         napis1.SetActive(true);
-        Invoke("ShowStory2",5f);
+        Invoke("ShowStory2",3f);
     }
-    
-    public void ShowStory2()
+
+    private void ShowStory2()
     {
+        napis1.SetActive(false);
         napis2.SetActive(true);
+        Invoke("ShowStory3",3f);
+    }
+
+    private void ShowStory3()
+    {
+       napis2.SetActive(false); 
+       napis3.SetActive(true);
+       Invoke("ShowStory4",3f);
+    }
+
+    private void ShowStory4()
+    {
+       napis3.SetActive(false);
+       napis4.SetActive(true);
+       Invoke("ShowStory5",3f);
+    }
+
+    private void ShowStory5()
+    {
+        napis4.SetActive(false);
+        napis5.SetActive(true);
+        napis6.SetActive(true);
+        Invoke("NextScene",3f);
+    }
+
+    public void NextScene()
+    {
+        SceneManager.LoadScene(1);
     }
 }
