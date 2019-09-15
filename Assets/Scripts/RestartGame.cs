@@ -38,6 +38,7 @@ public class RestartGame : MonoBehaviour
     {
         sceneCounter++;
         subtitle1.SetActive(true);
+        
         Invoke("SubtitleScene"+sceneCounter,2f);
 
     }
