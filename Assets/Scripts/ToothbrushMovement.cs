@@ -25,7 +25,7 @@ public class ToothbrushMovement : MonoBehaviour
         v3.y = Camera.main.ScreenToWorldPoint(v3).y;
 
         
-        transform.position = Vector3.Lerp(transform.position,v3,0.5f);
+        transform.position = Vector3.Lerp(transform.position,v3,0.5f * Time.deltaTime * 30f);
 
         if (transform.position.x < 0.1)
         {

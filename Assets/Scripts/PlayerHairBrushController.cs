@@ -42,7 +42,7 @@ public class PlayerHairBrushController : MonoBehaviour
          }
       }
 
-      transform.position = Vector3.Lerp(transform.position, destinationPoint, lerpSpeed);
+      transform.position = Vector3.Lerp(transform.position, destinationPoint, lerpSpeed* Time.deltaTime * 60f);
 
    }
 
